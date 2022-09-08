@@ -4,5 +4,11 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-  ]
+  ],
+  components: [
+    '~/components',
+    '~/components/common',
+    '~/components/models',
+    '~/components/pages',
+  ],
 })
