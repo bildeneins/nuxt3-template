@@ -6,16 +6,24 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint --ext .ts,.js,.vue ."
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "storybook": "start-storybook -p 6006 -s ./public,./assets"
   },
   "devDependencies": {
     "@nuxt/test-utils-edge": "^3.0.0-rc.10-27709424.bb8942a",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@nuxtjs/tailwindcss": "^5.3.2",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/vue3": "^6.5.10",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
-    "@nuxtjs/tailwindcss": "^5.3.2",
+    "autoprefixer": "^10.4.8",
     "eslint": "^8.23.0",
     "nuxt": "3.0.0-rc.9",
+    "storybook-builder-vite": "^0.1.23",
     "vitest": "^0.23.1"
+  },
+  "dependencies": {
+    "@storybook/addon-postcss": "^2.0.0"
   }
 }
