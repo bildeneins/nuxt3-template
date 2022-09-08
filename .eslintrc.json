@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@nuxtjs/eslint-config-typescript"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "no-console": "off"
+  }
+}
